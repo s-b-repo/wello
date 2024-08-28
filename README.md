@@ -70,7 +70,9 @@ sudo systemctl status host_monitor.service
 3.2 API requirments
 #
 venv for arch linux
+#
 python -m venv env
+#
 source env/bin/activate
 
      pip install flask
