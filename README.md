@@ -67,6 +67,14 @@ sudo systemctl status host_monitor.service
     Host Status Endpoint:
         The /status endpoint is available to view the last ping time of each host. This can be useful for debugging or monitoring but should be secured in production.
 
+3.2 API requirments
+venv for arch linux
+python -m venv env
+source env/bin/activate
+
+     pip install flask
+
+
 4. Running the API
 
     Save the above code to a file named secure_ping_api.py.
