@@ -80,7 +80,7 @@ source env/bin/activate
 
 4. Running the API
 
-    Save the above code to a file named secure_ping_api.py.
+    Save the above code to a file named wello-api.py.
     Run the script:
 
 bash
