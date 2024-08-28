@@ -1,3 +1,19 @@
+Deployment Instructions
+
+    Copy the Updated Script to Each Host:
+        Save the script to a suitable location on each host, for example, /usr/local/bin/host_monitor.py.
+
+    Make the Script Executable:
+        Ensure the script has execute permissions:
+
+       
+
+    chmod +x /usr/local/bin/host_monitor.py
+
+Run the Script:
+
+    You can run the script manually or set it up to run automatically using a cron job or a systemd service.
+
 Example of a Systemd Service
 
 If you want the script to run as a background service on a Linux system, you can create a systemd service file.
